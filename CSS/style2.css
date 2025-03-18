@@ -1,0 +1,77 @@
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Fond gris clair */
+    color: #333; /* Texte sombre */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Pour une disposition verticale */
+}
+
+/* Conteneur principal */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Aligner le texte à gauche */
+    width: 300px;
+}
+
+/* Titre */
+h1 {
+    color: #ff6600; /* Orange */
+    font-size: 24px;
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+/* Couleur des titres de chaque section */
+h4 {
+    color: #ff6600; /* Orange */
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Style des champs de saisie */
+input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+/* Bouton */
+button {
+    background-color: #ff6600; /* Orange */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 8%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e65c00; /* Un orange plus foncé au survol */
+}
+
+/* Résultat */
+p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+#result {
+    font-weight: bold;
+    color: #ff6600; /* Résultat en orange */
+}
